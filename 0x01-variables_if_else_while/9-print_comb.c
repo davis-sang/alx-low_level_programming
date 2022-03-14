@@ -13,9 +13,11 @@ int main(void)
 	{
 		putchar(d + '0');
 		if (d < 9)
+		{
 			putchar(32);
 			putchar(44);
-		d++;
+		}
+	d++;
 	}
 	putchar('\n');
 	return (0);
