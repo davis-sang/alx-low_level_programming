@@ -14,8 +14,8 @@ int main(void)
 		putchar(d + '0');
 		if (d < 9)
 		{
-			putchar(32);
 			putchar(44);
+			putchar(32);
 		}
 	d++;
 	}
