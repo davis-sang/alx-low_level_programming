@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
 *_islower - checks for lowercase character, returns 1 if lowercase, otherwise 0
 */
