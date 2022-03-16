@@ -11,15 +11,10 @@ int _islower(int c)
 	char l;
 	int i = 0;
 
-	l = 'a';
-	while (l <= 'z')
+	for (l = 'a'; l <= 'z'; l++)
 	{
 		if (c == l)
-		{
 			i = 1;
-		} else
-			i = 0;
-		l++;
 	}
 	return (i);
 }
