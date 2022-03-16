@@ -7,22 +7,22 @@
 */
 int print_sign(int n)
 {
-	int j = 0;
+	int j;
 
 	if (n > 0)
 	{
-		j = 1;
 		_putchar('+');
+		j = 1;
 	}
 	else if (n == 0)
 	{
-		j = 0;
 		_putchar('0');
+		j = 0;
 	}
 	else
 	{
-		j = -1;
 		_putchar('-');
+		j = -1;
 	}
 	return (j);
 }
