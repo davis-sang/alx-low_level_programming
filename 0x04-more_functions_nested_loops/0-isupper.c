@@ -7,16 +7,12 @@
 */
 int _isupper(int c);
 {
-	char l;
-	int i;
+	int i = 0;
 
-	for (l = 'A'; l <= 'Z'; l++)
-	{
-		if (l == c)
-			i = 1;
-		else
-			i = 0;
-	}
+	if (c >= 'A' && c <= 'Z')
+		i = 1;
+	else
+		i = 0;
 	_putchar('\n');
 	return (i);
 }
