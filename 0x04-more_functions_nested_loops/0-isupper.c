@@ -17,5 +17,6 @@ int _isupper(int c);
 		else
 			i = 0;
 	}
+	_putchar('\n');
 	return (i);
 }
