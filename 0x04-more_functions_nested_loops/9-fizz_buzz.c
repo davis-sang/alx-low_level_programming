@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 *main - main function
-*Description: fizz-buzz test, fizz for multiples of 3, buzz for 5 and *fizbuzz for both.
+*Description: fizz-buzz test, fizz for multiples of 3,
+*buzz for 5 and fizbuzz for both.
 *Return: 0 success
 */
 int main(void)
@@ -12,7 +13,7 @@ int main(void)
 	{
 		if (i % 3 != 0 && i % 5 != 0)
 		{
-			printf("%i ",i);
+			printf("%i ", i);
 		}
 		else if (i % 15 == 0)
 		{
