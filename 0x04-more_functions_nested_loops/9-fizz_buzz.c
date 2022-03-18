@@ -2,7 +2,7 @@
 # include <stdio.h>
 /**
 *main - main function
-*Description: prints 1 to 100 printing fizz for multiples of 3 
+*Description: prints 1 to 100 printing fizz for multiples of 3
 *and multiples of 5 with buzz ; fizz buzz for both.
 *Return: 0
 */
