@@ -1,15 +1,16 @@
-#include <stdio.h>
+# include <stdlib.h>
+# include <stdio.h>
 /**
 *main - main function
-*Description: fizz-buzz test, fizz for multiples of 3,
-*buzz for 5 and fizbuzz for both.
-*Return: 0 success
+*Description: prints 1 to 100 printing fizz for multiples of 3 
+*and multiples of 5 with buzz ; fizz buzz for both.
+*Return: 0
 */
 int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	for (i = 1; i <= 99; i++)
 	{
 		if (i % 15 == 0)
 		{
@@ -24,10 +25,10 @@ int main(void)
 			printf("Buzz ");
 		}
 		else
+		{
 			printf("%i ", i);
-		if (i < 100)
-			printf(" ");
+		}
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
