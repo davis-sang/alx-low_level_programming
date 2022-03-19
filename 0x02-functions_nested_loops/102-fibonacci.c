@@ -7,20 +7,16 @@
 */
 int main(void)
 {
-	int i, j, k, count;
+	long int i, x = 1, y = 2, sum = 0;
 
-	i = 1;
-	j = 2;
-	k = 0;
-	count = 49;
-	for (i = 0; i < count; i++)
+	for (i = 0; i < 49; i++)
 	{
-		printf("%i ", i);
-		k = i + j;
-		i = j;
-		j = k;
+		printf("%ld, ", x);
+		sum = x + y;
+		x = y;
+		y = sum;
 		if (i == 48)
-			printf("%i\n", i);
+			printf("%ld\n", x);
 	}
 	return (0);
 }
