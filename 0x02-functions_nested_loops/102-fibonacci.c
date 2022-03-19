@@ -5,7 +5,7 @@
 *Description: prints the first 50 fibonacci numbers
 *Return: 0
 */
-int main (void)
+int main(void)
 {
 	int i, j, k, count;
 
@@ -13,9 +13,9 @@ int main (void)
 	j = 2;
 	k = 0;
 	count = 49;
-	for (i = 0;i < count; i++)
+	for (i = 0; i < count; i++)
 	{
-		printf("%i ",i);
+		printf("%i ", i);
 		k = i + j;
 		i = j;
 		j = k;
@@ -23,4 +23,4 @@ int main (void)
 			printf("%i\n", i);
 	}
 	return (0);
-} 
+}
