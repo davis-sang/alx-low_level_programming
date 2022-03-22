@@ -19,6 +19,7 @@ void puts_half(char *str)
 		{
 			_putchar(str[n]);
 			n++;
+			_putchar('\n');
 		}
 	}
 	else
@@ -28,6 +29,7 @@ void puts_half(char *str)
 		{
 			_putchar(str[n]);
 			n++;
+			_putchar('\n');
 		}
 	}
 }
