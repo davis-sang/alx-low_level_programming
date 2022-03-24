@@ -24,7 +24,6 @@ char *cap_string(char *a)
 				break;
 			}
 		}
-		
 	}
 	return (a);
 }
