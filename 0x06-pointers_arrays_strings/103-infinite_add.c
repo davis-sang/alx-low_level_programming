@@ -9,8 +9,8 @@
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int carry = 0; 
-	int i = 0; 
+	int carry = 0;
+	int i = 0;
 	int j;
 	char *s1 = n1;
 	char *s2 = n2;
