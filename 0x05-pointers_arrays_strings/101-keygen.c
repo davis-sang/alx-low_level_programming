@@ -5,21 +5,37 @@
  * main - generates keygen. As observed from ghidra the expected
  * the expected character legnth is 2772
  * Return: 0 Always.
- */
+*/
 int main(void)
 {
-	int a = 0, b = 0;
-	time_t t;
+	int i, j, k, s;
+	char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char p[58];
 
-	srand((unsigned int) time(&t));
-	while (b < 2772)
+	srand(time(NULL));
+	while (s != 2772)
 	{
-		a = rand() % 128;
-		if ((a + b) > 2772)
-			break;
-		b = b + a;
-		printf("%c", a);
+		i = k = s = 0;
+		while ((2772 - 122) > s)
+		{
+			j = rand() % 62;
+			p[i] = c[j];
+			s += c[j];
+			i++;
+		}
+		while (c[k])
+		{
+			if (c[k] == (2772 - s))
+			{
+				p[i] = c[k];
+				s += c[k];
+				i++;
+				break;
+			}
+			k++;
+		}
 	}
-	printf("%c\n", (2772 - b));
+	p[i] = '\0';
+	printf("%s", p);
 	return (0);
 }
