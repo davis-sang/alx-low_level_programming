@@ -8,7 +8,7 @@
 *for an amount of money.
 *Return: 0 on success
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j, total, m;
 	int c[5] = {25, 10, 5, 2, 1};
@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
 	m = atoi(argv[1]);
 	if (m <= 0)
 	{
-		printf("0");
+		printf("0\n");
 		return (1);
 	}
 	for (j = 0; j < 5; j++)
@@ -34,5 +34,5 @@ int main (int argc, char *argv[])
 			break;
 	}
 	printf("%d\n", total);
-	return(0);
-}		
+	return (0);
+}
