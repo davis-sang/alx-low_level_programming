@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
 *main - main function
 *@argc: argument counter
@@ -14,7 +15,7 @@ int main(int argc, char *argv[])
 	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) == 0)
+		if (atoi(argv[i]) == 0 || isdigit(atoi(argv[i])) == 0)
 		{
 			printf("Error\n");
 			return (1);
