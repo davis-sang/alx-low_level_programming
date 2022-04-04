@@ -2,7 +2,7 @@
 
 ## Mandatory Tasks
 
- <sup>` __attribute__((unused)).` This attribute suppresses the unused variable warnings.</sup>
+ <sup> [__attribute__((unused))](https://stackoverflow.com/questions/52683192/what-is-attribute-unused-static#:~:text=The%20static%20keyword,a%20compiled%20file). This attribute suppresses the unused variable warnings.</sup>
 
 1. `Task 0 :` Program that prints its name followed by a new line.
 
