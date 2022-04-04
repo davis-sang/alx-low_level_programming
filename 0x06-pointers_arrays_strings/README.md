@@ -11,7 +11,7 @@
 
 # Advanced Tasks
 
-9. `Task 8 :` - function that encodes a string into [`rot13`](https://alx-intranet.hbtn.io/rltoken/YRxmNA7BnP6yZhl09TKX3A).
+9. `Task 8 :` - function that encodes a string into [rot13](https://alx-intranet.hbtn.io/rltoken/YRxmNA7BnP6yZhl09TKX3A).
 10. `Task 9 :` - function that prints an integer.
 11. `Task 10 :` - Added one line to this [code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints `a[2] = 98`, followed by a new line.
 12. `Task 11 :` - A function that adds two numbers.
