@@ -7,7 +7,7 @@
 *@av: arguments passed to main
 *Return: pointer to the concatenated string
 */
- char *argstostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *s;
 	int a, b, c, d;
@@ -28,7 +28,7 @@
 		return (NULL);
 	for (a = 0; a < ac; a++)
 	{
-		for (b = 0;av[a][b]; b++)
+		for (b = 0; av[a][b]; b++)
 		{
 			s[c] = av[a][b];
 			c++;
