@@ -31,7 +31,7 @@ array of integers.
 
 ## Advanced Tasks
 
-6. `Task 5 :` - function that concatenates all the arguments of 
+6. `Task 100 :` - function that concatenates all the arguments of 
 your program.
 
-7. `Task 6 :` - function that splits a string into words.
+7. `Task 101 :` - function that splits a string into words.
