@@ -38,7 +38,7 @@ char **strtow(char *str)
 	c = wcount(str);
 	if (c == 1)
 		return (NULL);
-	w = (char **)malloc(c * sizeof(char *));
+	w = malloc(c * sizeof(char *));
 	if (w == NULL)
 		return (NULL);
 	w[c - 1] = NULL;
@@ -50,7 +50,7 @@ char **strtow(char *str)
 			for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 				;
 			j++;
-			w[wc] = (char *)malloc(j * sizeof(char));
+			w[wc] = malloc(j * sizeof(char));
 			j--;
 			if (w[wc] == NULL)
 			{
