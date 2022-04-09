@@ -12,4 +12,8 @@
 
 ## Advanced Tasks
 
+<<<<<<< HEAD
 5. `Task 100 :` - a function that reallocates a memory block using `malloc` and `free`.
+=======
+5. `Task 100 :` - function that reallocates a memory block using `malloc` and `free`.
+>>>>>>> ce1f7317669a5d161d6084e35766714cfaebc877
