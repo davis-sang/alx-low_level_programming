@@ -1,6 +1,6 @@
 # 0x0E. C - Structures, typedef
 
-#Mandatory Tasks
+## Mandatory Tasks
 
 1. `Task 0:` - defined a new type structure `struct dog` with the following
 elements;
