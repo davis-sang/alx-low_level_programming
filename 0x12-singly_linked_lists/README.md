@@ -17,3 +17,11 @@
 	* Prototype: `list_t *add_node(list_t **head, const char *str);`
 	* Return: the address of the new element, or `NULL` if it failed
 	* You are allowed to use `strdup`.
+4. `Task 3` - function that adds a new node at end of a `list_t` list.
+
+	* Prototype: `list_t *add_node_end(list_t **head, const char *str);`
+
+5. `Task 4` - a function that frees a `list_t` list.
+	
+	* Prototype: `oid free_list(list_t *head);`
+
